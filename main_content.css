@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap');
+
+
+#intro_message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#title {
+    font-size: 64px;
+    font-weight: 700;
+    letter-spacing: -1.44px;
+    line-height: 68px;
+    margin-bottom: 0px;
+    margin-top: 60px;
+    font-weight: 800;
+    color: #333121;
+
+}
+
+#subheading {
+    font-weight: 500;
+    letter-spacing: 0px;
+    line-height: 32px;
+    width: 35%;
+    text-align: center;
+
+}
+
+#subheading h2 {
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+#searchParams {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 32px;
+    padding: 0px 48px;
+    background-color: white;
+    padding: 20px 0;
+    border-radius: 20px;
+    box-shadow: rgba(51, 49, 33, 0.2) 1px 6px 20px 2px;
+    z-index: 200;
+    position: relative;
+
+}
+
+.inputFields {
+    display: flex;
+    min-height: 56px;
+    align-items: center;
+    background-color: transparent;
+    border: 1px solid gray;
+    border-radius: 8px;
+    flex: 0.5 0 auto;
+    margin: 10px;
+    font-size: 15px;
+}
+
+#destinations {
+    border: none;
+
+}
+
+#destinationSearch {
+    flex: 1 1 auto;
+    margin-left: 45px;
+}
+
+#search {
+    max-width: 120px;
+    margin-right: 45px;
+    justify-content: center;
+    background-color: #2d77c7;
+    color: white;
+    border: none;
+}
+
+#guests {
+    flex: 0.25 0 auto;
+}
+
+.inputFields svg {
+    padding: 5px 10px 5px 5px;
+}
+
+#main_image {
+    border-radius: 24px;
+    z-index: 100;
+    width: 100%;
+    height: 510px;
+    position: relative;
+    top: -120px;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+
+}
+#searchbar_yosemite {
+    margin-bottom: unset;
+}
+
+#tent {
+    position: absolute;
+    box-sizing: border-box;
+    padding: 0;
+    margin: auto;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+
+#tent_location {
+    color: white;
+    font-size: 14px;
+    position: relative;
+    z-index: 50;
+    padding: 10px;
+    margin: 15px 20px 15px 15px;
+    background-color: rgba(51, 49, 33, 0.5);
+
+}
+
+#container {
+    display: flex;
+}
+
+.container_divs {
+    display: flex;
+    flex-direction: column;
+    flex: 0.5 0.5 auto;
+    margin: 5px 20px;
+
+
+
+}
+
+.mimage {
+    height: 350px;
+    z-index: 1;
+    border-radius: 20px;
+    background-size: cover;
+
+}
+#mday_img {
+    background-image: url("mugs.jpg");
+    background-position: bottom;
+}
+#best2023_img {
+    background-image: url("tent-mountains.jpg");
+    background-position: bottom;
+}
+
+
+.divHeading {
+    z-index: 2;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(70, 79, 46,0.98);
+    position: relative;
+    top: -60px;
+    align-items: center;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+
+.text {
+    max-width: 50%;
+    padding: 10px;
+    color: white;
+    margin-bottom: 5px;
+    font-weight: 300;
+}
+.text .subheading {
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+}
+.text .title {
+    color: rgb(253, 251, 246);
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    line-height: 30px;
+
+}
+.container_divs_button {
+    background-color: white;
+    padding: 12px 36px;
+    border-radius: 24px;
+    display: inline-block;
+    white-space: nowrap;
+    border: none;
+}
+.container_divs_button span {
+    font-family: Calibre, Helvetica, Arial, sans-serif;
+    color: rgb(70, 79, 46);
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    line-height: 26px;
+}
+#memorial_heading {
+    background-color:rgb(142, 108, 88);
+}
+#best2023_heading {
+    background-color: #1e3a57;
+}

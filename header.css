@@ -1,0 +1,80 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+body {
+    overflow: unset;
+    padding-right: unset;
+   background-color:  rgb(243, 242, 239);
+    font-family: 'Inter', sans-serif;
+    max-width: 1280px;
+    margin: 0 auto;
+    color: #333121;
+    background-image: url("beach.jpg");
+    background-position: center;
+    background-size: cover;
+
+
+
+
+}
+.header_div{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 24px;
+    padding-right: 24px;
+    align-items: center;
+    padding-top: 20px;
+
+
+
+}
+#logo {
+    max-width: 183px;
+    max-height: 28px;
+}
+#rightSide {
+display: flex;
+align-items: center;
+padding-bottom: 10px;
+}
+#links_div {
+    padding: 10px;
+}
+#links_div a {
+    list-style-type: none;
+    border-bottom: 2px solid transparent;
+    border-top: 2px solid transparent;
+    margin: 0px 12px;
+    padding-bottom: 2px;
+    transition: border-bottom 0.25s ease 0s;
+    margin-top: 0px;
+}
+#links_div a:hover {
+    border-bottom: 2px solid grey;
+}
+
+
+#signup {
+    background-color: rgb(70, 79, 46);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(70, 79, 46);
+    color: white;
+    height: 40px;
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 5px 12px;
+
+}
+
+#signin {
+    height: 40px;
+    font-size: 14px;
+    border: none;
+    background-color: none;
+    transition: background-color 0.25s;
+    background-color: rgba(250, 235, 215,0.6);
+    border-radius: 5px;
+}
+#signin:hover{
+    background-color: lightgray;
+}
